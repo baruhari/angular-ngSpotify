@@ -4,5 +4,7 @@ export class Album{
     id: number;
     images : string[];
     artists : Artist[];
-    releaseDate  : string;
+    release_date  : string;
+    name : string;
+    
 }

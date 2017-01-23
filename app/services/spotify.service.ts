@@ -7,10 +7,9 @@ import 'rxjs/add/operator/map';
 export class SpotifyService{
     searchUrl : string;
     artistUrl : string;
-    albumUrl : string;
     albumsUrl : string;
-
-
+    albumUrl : string;
+    
     constructor(private _http:Http ){
     }
     
